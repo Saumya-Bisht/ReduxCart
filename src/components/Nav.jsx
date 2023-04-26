@@ -18,7 +18,7 @@ function Nav(props) {
         <Link to="/">Home</Link>
         
         <Link to="/products">Products</Link>
-        
+        <Link to="/urf">useRef</Link>
         <Link to="/cart">Cart <span>{Cart.length}</span> </Link>
         <button style={{color:"white",backgroundColor:"green",border:"0",height:"25px",width:"100px",cursor:"pointer"}}>
           Logout
