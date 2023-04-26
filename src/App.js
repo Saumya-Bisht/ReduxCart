@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Products from './components/Products';
 import AddToCart from './components/Cart';
 import Timer from './components/useRef/Timer';
+import Counter from './components/Class/Counter';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/products" element={<Products/>}/>
         <Route path="/cart" element={<AddToCart/>}/>
         <Route path="/urf" element={<Timer/>}/>
+        <Route path="/class" element={<Counter/>}/>
       </Routes>
     </div>
   );
